@@ -120,8 +120,14 @@ body{
 .slider{
   display: flex;
   flex-wrap: wrap;
-
 }
+
+.slider__link {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
 .slider__item{
   position: relative;
   display: flex;
